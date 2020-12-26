@@ -41,7 +41,7 @@ def get_readable_time(seconds: int) -> str:
 uptime = get_readable_time((time.time() - Lastupdate))
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = Config.ALIVE_IMAGE
-pm_caption = "➥ **FRIDAY IS:** `ONLINE`\n\n"
+pm_caption = "➥ **STATUS USERBOT:** `ONLINE`\n\n"
 pm_caption += "➥ **SYSTEMS STATS**\n"
 pm_caption += "➥ **Telethon Version:** `1.15.0` \n"
 pm_caption += "➥ **Python:** `3.7.4` \n"
