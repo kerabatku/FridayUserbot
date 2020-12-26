@@ -711,7 +711,7 @@ async def _(event):
             await event.edit("Gimme another coin, this one fake AF !!")
 
 
-@register(pattern="^.slap(?: |$)(.*)", outgoing=True)
+@register(pattern="^.geplak(?: |$)(.*)", outgoing=True)
 async def who(event):
     if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
         """ slaps a user, or get slapped if not a reply. """
@@ -783,7 +783,7 @@ async def slap(replied_user, event):
     hit = random.choice(HIT)
     throw = random.choice(THROW)
 
-    caption = "..." + temp.format(victim=slapped, item=item, hits=hit, throws=throw)
+    caption = "@SamRamadhan" + temp.format(victim=slapped, item=item, hits=hit, throws=throw)
 
     return caption
 
